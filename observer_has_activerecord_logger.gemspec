@@ -9,4 +9,5 @@ Gem::Specification.new do |s|
   s.require_path = '.'
   s.files = [ 'observer_has_activerecord_logger.rb' ]
   s.add_dependency 'activerecord'
+  s.add_dependency 'rails-observers'
 end
