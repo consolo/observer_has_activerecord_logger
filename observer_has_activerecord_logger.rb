@@ -1,4 +1,5 @@
 gem 'activerecord'
+gem 'rails-observers'
 
 ##
 # &copy; 2010 Andrew Coleman
