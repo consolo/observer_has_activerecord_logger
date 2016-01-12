@@ -1,5 +1,5 @@
-gem 'activerecord'
-gem 'rails-observers'
+require 'active_record'
+require 'rails-observers'
 
 ##
 # &copy; 2010 Andrew Coleman
@@ -14,4 +14,4 @@ module Consolo
   end
 end
 
-ActiveRecord::Observer.send :include, Consolo::ObserverHasActiveRecordLogger
+ActiveModel::Observer.send :include, Consolo::ObserverHasActiveRecordLogger
